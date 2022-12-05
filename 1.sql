@@ -1,6 +1,6 @@
 CREATE ROLE user_training WITH LOGIN PASSWORD 'eKafp74shodI0cr0clm4';
 
-CREATE SCHEMA training1 AUTHORIZATION user_training;
+CREATE SCHEMA training AUTHORIZATION user_training;
 
 DROP ROLE user_training;
 
